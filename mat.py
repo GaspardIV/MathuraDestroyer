@@ -32,6 +32,6 @@ for file_name in files:
                 right_ans = exercise_str.split("Wersja II ")[1][0]
                 ans_counter[right_ans] += 1
 
+print(ans_counter)
 print(dict_year_exercise_to_core_curriculum)
 print(dict_core_curriculum_to_year_exercise)
-print(ans_counter)
