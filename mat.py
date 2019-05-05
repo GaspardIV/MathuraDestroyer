@@ -28,10 +28,22 @@ for file_name in files:
                         dict_core_curriculum_to_year_exercise[el].append(year + "_" + ex_num)
                     except:
                         dict_core_curriculum_to_year_exercise[el] = [year + "_" + ex_num]
-                print(year + "_" + ex_num)
+                # print(year + "_" + ex_num)
                 right_ans = exercise_str.split("Wersja II ")[1][0]
                 ans_counter[right_ans] += 1
 
-print(ans_counter)
-print(dict_year_exercise_to_core_curriculum)
-print(dict_core_curriculum_to_year_exercise)
+# print(ans_counter)
+# print(dict_year_exercise_to_core_curriculum)
+# print(dict_core_curriculum_to_year_exercise)
+
+# print("sorted by core curriculum name")
+# for cc in sorted(dict_core_curriculum_to_year_exercise):
+#     print(cc)
+#     for ll in dict_core_curriculum_to_year_exercise[cc]:
+#         print("\t", ll)
+
+print("sorted by core curriculum popularity")
+for cc in sorted(dict_core_curriculum_to_year_exercise, key=lambda elem: -len(dict_core_curriculum_to_year_exercise[elem])):
+    print(cc + " (" + str(len(dict_core_curriculum_to_year_exercise[cc])) + ")")
+    for ll in dict_core_curriculum_to_year_exercise[cc]:
+        print("\t", ll)
