@@ -1,0 +1,12 @@
+body {
+	background-color: pink;
+	color: black;
+	text-align: center;
+	font-size: 40px;
+    font-variant: small-caps;
+    font-weight: bolder;
+    line-height: 1;
+    letter-spacing: -3px;
+    text-shadow: 2px 2px #39B5AD;
+    /*font: font-style font-variant font-weight font-size/line-height font-family|caption|icon|menu|message-box|small-caption|status-bar|initial|inherit;*/
+}
