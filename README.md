@@ -1,6 +1,6 @@
 # MathuraDestroyer
 
-Polish matura (school-leaving exam) is organised by cke. CKE every year announces results and then publish exercises and assessment criteria on their site.
+Polish matura (school-leaving exam) is organised by cke. CKE every year after announcing results, publish exercises and assessment criteria on their site.
 
 Exercises with the same core curriculum point should be similar, because they are checking the same math skill.
 
