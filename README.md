@@ -1,9 +1,9 @@
 # MathuraDestroyer
-Sorted core curriculum points by it popularity in exercises, so 
-exercises in the same core curriculum point should be similar;
 
-This project is a website generator, with sorted exercises by core cirriculum, so 
-it can help my math pupils pass their matura exam by learning schemes of exercises.
+Exercises in the same core curriculum point should be similar, because they are checking the same math skill.
 
-Result page is avaible here:
+This project is a website generator, that generate a page with grouped exercises by core cirriculum point, and then sorted groups by their count, so the most popular exercise type is on top.
+It should help every math pupil pass his matura exam by learning schemes of exercises.
+
+Exmple result page is avaible here:
 http://students.mimuw.edu.pl/~kk385785/lala/
