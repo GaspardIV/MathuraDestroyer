@@ -9,5 +9,5 @@ It should help every math pupil pass his matura exam by learning schemes of exer
 
 
 
-Exmple result page is avaible here:
+Exmple result page is available here:
 http://students.mimuw.edu.pl/~kk385785/lala/
